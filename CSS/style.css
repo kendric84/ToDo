@@ -1,0 +1,17 @@
+h1 {
+    text-align: left;
+}
+
+h3 {
+    margin-left: 37px;
+}
+
+.ToDoColumns {
+    display: flex;
+
+}
+
+.CompletedToDoColumns {
+    display: flex;
+
+}
