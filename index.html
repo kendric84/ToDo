@@ -11,54 +11,49 @@
       </h1>
     </header>
     <main>
-        <!-- add new items -->
-        <div>
-
-        </div>
-        <!-- pending items -->
-      <div class="ToDoColumns">
-        <div class="ToDoItems">
-          <h3>Task</h3>
-          <ol>
-<li>
-    Task 123
-</li>
-          </ol>
-        </div>
-        <div class="ItemDueDate">
+      <!-- add new item -->
+      <div>
+          <div class="columns">
+          <h3>Add Task</h3>
           <h3>Due Date</h3>
-          <ul style="list-style-type:none">
-              <li>
-                  8/9/2020
-              </li>
-          </ul>
+        </div>
+          <form>
+              <input class="newTaskText" type="text" placeholder="Enter new task...">
+              <input class="newTaskDate" type="date">
+              <input class="newTaskButton" type="button" value="Add">
+          </form>
+      </div>
+      <!-- pending items -->
+      <div class="columns">
+        <div>
+          <h3>Task</h3>
+          <ol id="pendingTasks"></ol>
+        </div>
+        <div>
+          <h3>Due Date</h3>
+          <ul id="pendingDueDate"></ul>
+        </div>
+        <div>
+            <h3 style="visibility:hidden;" >""</h3>
+            <ul id="markComplete"style="font-size:13px; color:green;"></ul>
         </div>
         <!-- completed items -->
       </div>
-      <div class="CompletedToDoColumns">
-          <div class="CompletedToDoItems">
-            <h3>Task</h3>
-            <ol>
-                <li>Task 1 - some much longer description</li>
-            </ol>
-          </div>
-          <div class="CompletedItemDueDate">
-            <h3>Due Date</h3>
-            <ul style="list-style-type:none">
-                <li>
-                    8/2/2020
-                </li>
-            </ul>
-          </div>
-          <div class="CompletedItemCompletedDate">
-            <h3>Completed Date</h3>
-            <ul style="list-style-type:none">
-                <li>
-                    8/2/2020
-                </li>
-            </ul>
-          </div>
+      <div class="columns">
+        <div>
+          <h3>Completed Tasks</h3>
+          <ol id="completedTasks"></ol>
+        </div>
+        <div>
+          <h3>Due Date</h3>
+          <ul id="completedDueDate"</ul>
+        </div>
+        <div>
+          <h3>Completed Date</h3>
+          <ul id="completedDate"></ul>
+        </div>
       </div>
     </main>
+    <script src="code.js"></script>
   </body>
 </html>

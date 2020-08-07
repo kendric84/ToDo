@@ -1,0 +1,51 @@
+{
+"pendingTasks": [
+{
+    "description":"Get new task into JSON",
+    "dueDate":"8/5/2020"
+},
+{
+    "description":"Get event created to mark as complete",
+    "dueDate":"8/5/2020"
+},
+{
+    "description":"Move pending event to completed event",
+    "dueDate":"8/5/2020"
+},
+{
+    "description":"Store JSON file locally",
+    "dueDate":"8/5/2020"
+},
+{
+    "description":"sync JSON file with local storage",
+    "dueDate":"8/6/2020"
+},
+{
+    "description":"Test and fix bugs",
+    "dueDate":"8/6/2020"
+}
+],
+
+"completedTasks": [
+    {
+        "description":"Figure out how to use JSON",
+        "dueDate":"8/4/2020",
+        "completedDate":"8/4/2020"
+    },
+    {
+        "description":"Get JSON file contents into HTML",
+        "dueDate":"8/4/2020",
+        "completedDate":"8/4/2020"
+    },
+    {
+        "description":"Format HTML to display correctly on the screen",
+        "dueDate":"8/4/2020",
+        "completedDate":"8/4/2020"
+    },
+    {
+        "description":"Create fields to add new task",
+        "dueDate":"8/5/2020",
+        "completedDate":"8/5/2020"
+    }
+]
+}
