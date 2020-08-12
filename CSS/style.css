@@ -1,53 +1,66 @@
+.columns {
+  display: flex;
+  margin: 5px;
+}
+
+#new-task-text {
+  width: 350px;
+  height: 30px;
+  margin-left: 45px;
+}
+
+#new-task-button {
+  width: 80px;
+  height: 36px;
+  margin-left: 20px;
+}
+
+#new-task-date {
+  height: 33px;
+  margin-left: 20px;
+}
+
+#clear-button {
+  width: 120px;
+  height: 36px;
+  margin-left: 20px;
+}
+
+#mark-complete {
+  font-size: 13px;
+  color: green;
+}
+
 h1 {
-    text-align: left;
-    background-color: cornflowerblue;
-    color: white;
-    padding: 15px;
+  text-align: left;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 15px;
 }
 
 h3 {
-    margin-left: 50px;
-}
-
-.columns {
-    display: flex;
-    margin: 5px;
-}
-
-.newTaskText {
-    width: 350px;
-    height: 30px;
-    margin-left: 45px;
-}
-
-.newTaskButton {
-width: 80px;
-height: 36px;
-margin-left: 20px;
-}
-
-.newTaskDate {
-    height: 33px;
-    margin-left: 20px;
+  margin-left: 50px;
+  color: cornflowerblue;
 }
 
 li {
-    position: relative;
-    padding: 0.75rem 1.25rem;
-    margin-bottom: -1px;
-    border: 2px solid gray;
-    border-radius: 5px;
+  display: flex;
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  border: 2px solid gray;
+  border-radius: 5px;
 }
 
 ol {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
 }
 
 ul {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0;
-    list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  list-style-type: none;
 }

@@ -18,41 +18,42 @@
           <h3>Due Date</h3>
         </div>
           <form>
-              <input class="newTaskText" type="text" placeholder="Enter new task...">
-              <input class="newTaskDate" type="date">
-              <input class="newTaskButton" type="button" value="Add">
+              <input id="new-task-text" type="text" placeholder="Enter new task...">
+              <input id="new-task-date" type="date">
+              <input id="new-task-button" type="button" value="Add">
           </form>
       </div>
       <!-- pending items -->
       <div class="columns">
         <div>
           <h3>Task</h3>
-          <ol id="pendingTasks"></ol>
+          <ol id="pending-tasks"></ol>
         </div>
         <div>
           <h3>Due Date</h3>
-          <ul id="pendingDueDate"></ul>
+          <ul id="pending-due-date"></ul>
         </div>
         <div>
-            <h3 style="visibility:hidden;" >""</h3>
-            <ul id="markComplete"style="font-size:13px; color:green;"></ul>
+            <h3>Mark Complete</h3>
+            <ul id="mark-complete"></ul>
         </div>
         <!-- completed items -->
       </div>
       <div class="columns">
         <div>
           <h3>Completed Tasks</h3>
-          <ol id="completedTasks"></ol>
+          <ol id="completed-tasks"></ol>
         </div>
         <div>
           <h3>Due Date</h3>
-          <ul id="completedDueDate"</ul>
+          <ul id="completed-due-date"</ul>
         </div>
         <div>
           <h3>Completed Date</h3>
-          <ul id="completedDate"></ul>
+          <ul id="completed-date"></ul>
         </div>
       </div>
+      <input id="clear-button" type="button" value="Clear Completed">
     </main>
     <script src="code.js"></script>
   </body>
