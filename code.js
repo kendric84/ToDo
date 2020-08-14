@@ -131,9 +131,9 @@ function refreshLists() {
     ol.removeChild(ol.lastChild);
   }
   //Repopulate column
-  for (let i = 0; i < completedTaskDates.length; i++) {
+  for (let i = 0; i < completedTaskDueDates.length; i++) {
     let li = document.createElement("li");
-    let newText = completedTaskDates[i];
+    let newText = completedTaskDueDates[i];
     li.setAttribute("id", i);
     li.appendChild(document.createTextNode(newText));
     ol.appendChild(li);
@@ -145,9 +145,9 @@ function refreshLists() {
     ol.removeChild(ol.lastChild);
   }
   //Repopulate column
-  for (let i = 0; i < completedTaskDueDates.length; i++) {
+  for (let i = 0; i < completedTaskDates.length; i++) {
     let li = document.createElement("li");
-    let newText = completedTaskDueDates[i];
+    let newText = completedTaskDates[i];
     li.setAttribute("id", i);
     li.appendChild(document.createTextNode(newText));
     ol.appendChild(li);
