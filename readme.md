@@ -1,4 +1,7 @@
 # Vanilla JavaScript To-Do App
+
+*A simple yet functional To-Do app written in pure JavaScript, HTML, and CSS*
+
 Download it [here](https://github.com/kendric84/ToDo)
 
 ![App Screenshot](/Assets/To-Do-ss.png)
